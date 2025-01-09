@@ -1,0 +1,25 @@
+{
+  "name": "test-typedi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./dist/index.mjs",
+    "dev": "tsx watch index.js",
+    "build": "pkgroll --minify --target esNext"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pkgroll": "^2.6.1",
+    "reflect-metadata": "^0.2.2",
+    "typedi": "^0.10.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  },
+  "exports": "./dist/index.mjs"
+}
